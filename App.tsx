@@ -1,14 +1,15 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-
-const App = () => {
+import {AppProvider} from './src/providers/AppProvider';
+import {App} from './src/containers/App';
+const app = () => {
   return (
-    <View>
-      <Text>your app works with ,saga ,Typescript,generators,</Text>
-    </View>
+    <AppProvider>
+      <App />
+    </AppProvider>
   );
 };
 
-export default App;
+export default app;
 
 const styles = StyleSheet.create({});

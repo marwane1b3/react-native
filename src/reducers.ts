@@ -3,6 +3,7 @@
  */
 
 import {combineReducers} from 'redux';
+import languageProviderReducer from './providers/LanguageProvider/reducer';
 
 // function lastAction(state = null, action: string) {
 //   return action;
@@ -13,6 +14,7 @@ import {combineReducers} from 'redux';
  */
 export default function createReducer(injectedReducers = {}) {
   const rootReducer = combineReducers({
+    language: languageProviderReducer,
     ...injectedReducers,
     // lastAction,
   });
