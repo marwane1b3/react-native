@@ -1,5 +1,5 @@
 {
-  "name": "templatingSaga",
+  "name": "GuessNumber",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -48,6 +48,7 @@
     "react-native-maps": "^0.28.0",
     "react-native-notification-sounds": "^0.5.3",
     "react-native-reanimated": "^2.0.0",
+    "react-native-rename": "^2.9.0",
     "react-native-safe-area-context": "^3.1.9",
     "react-native-screens": "^2.17.1",
     "react-native-step-indicator": "^1.0.3",

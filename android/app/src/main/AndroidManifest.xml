@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.templatingsaga">
+  package="com.guessnumber.gameapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

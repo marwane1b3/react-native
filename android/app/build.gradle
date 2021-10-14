@@ -131,7 +131,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.templatingsaga"
+        applicationId "com.guessnumber.gameapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
