@@ -19,6 +19,7 @@ export interface Coloring {
   Encours: string;
   inactive: string;
   red: string;
+  crimson?: string;
   100?: string;
   200?: string;
   300?: string;
@@ -47,6 +48,7 @@ const palette: Palette = {
     dark: '#131315',
     Encours: '#FF9F2F',
     inactive: '#CDD4D9',
+    crimson: '#ffaf87',
     100: '#CDD4D9',
     red: '#FF3636',
   },

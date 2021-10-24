@@ -131,7 +131,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.templatingsaga"
+        applicationId "com.staffone.tp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
