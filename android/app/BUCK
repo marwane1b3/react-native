@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.templatingsaga",
+    package = "com.tppippipyallah",
 )
 
 android_resource(
     name = "res",
-    package = "com.templatingsaga",
+    package = "com.tppippipyallah",
     res = "src/main/res",
 )
 

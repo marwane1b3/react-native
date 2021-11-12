@@ -11,14 +11,11 @@ export interface ApplicationTheme {
   dimensions: DeviceDimensions;
 }
 export interface Coloring {
-  main: string;
-  secondary: string;
-  text: string;
   light: string;
   dark: string;
-  Encours: string;
-  inactive: string;
+  green: string;
   red: string;
+  gray: string;
   100?: string;
   200?: string;
   300?: string;
@@ -40,15 +37,12 @@ export interface Sizing {
 
 const palette: Palette = {
   default: {
-    main: '#28B873',
-    secondary: '#FF9F2F',
-    text: '#2F423C',
     light: '#FFFFFF',
     dark: '#131315',
-    Encours: '#FF9F2F',
-    inactive: '#CDD4D9',
-    100: '#CDD4D9',
+    gray: '#b1b5b1',
+
     red: '#FF3636',
+    green: '#CDCDCD',
   },
 };
 
